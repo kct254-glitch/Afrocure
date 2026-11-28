@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery — AfroCure Arts and Talent Centre</title>
+  <meta name="description" content="Photos and moments from AfroCure Arts and Talent Centre in Kibera: art workshops, dance training, drama, daily meals, performances and community gatherings.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <header class="site-nav" id="siteNav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img src="img/logo.png" alt="AfroCure Arts and Talent Centre Logo" style="height: 50px; width: auto; border-radius: var(--radius-sm);">
+        <span>
+          <span class="brand-name">AfroCure</span>
+          <span class="brand-sub">Arts &amp; Talent Centre</span>
+        </span>
+      </a>
+
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="dance.html">Dance Academy</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="involved.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html" class="nav-cta">Donate</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="programs.html">Programs</a>
+    <a href="dance.html">Dance Academy</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="involved.html">Get Involved</a>
+    <a href="contact.html">Contact</a>
+    <a href="donate.html" class="nav-cta">Donate</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Gallery</h1>
+      <p>Moments from AfroCure. Explore art workshops, dance training, performances and community gatherings.</p>
+    </div>
+  </section>
+
+  <!-- ================= GALLERY ================= -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Our work in pictures</p>
+        <h2 class="section-title">See the energy, joy and creativity</h2>
+        <p class="section-desc">Select any photo to view it full size.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- ============================================================
+             EDITABLE IMAGE — GALLERY 01
+             File:    img/girl-with-food.jpg
+             Alt:     Smiling girl holding a plate of food
+             ============================================================ -->
+        <button type="button" class="gallery-item reveal" data-label="Daily meal program">
+          <img src="img/background2.jpeg" alt="Smiling girl holding a plate of food" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+
+        <!-- EDITABLE IMAGE — GALLERY 02 | File: img/group-by-mural.jpg -->
+        <button type="button" class="gallery-item reveal" data-label="Community gathering">
+          <img src="img/878.jpeg" alt="Group of girls sitting and standing by a mural" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+
+        <!-- EDITABLE IMAGE — GALLERY 03 | File: img/girls-drinking.jpg -->
+        <button type="button" class="gallery-item reveal" data-label="Daily meal program">
+          <img src="img/1 (1).jpeg" alt="Children drinking water from cups" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+
+        <!-- EDITABLE IMAGE — GALLERY 04 | File: img/serving-food.jpg -->
+        <button type="button" class="gallery-item reveal" data-label="Daily meal program">
+          <img src="img/777.jpeg" alt="Serving food into pink bowls" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+
+        <!-- EDITABLE IMAGE — GALLERY 05 | File: img/kids-on-stairs.jpg -->
+        <button type="button" class="gallery-item reveal" data-label="Community gathering">
+          <img src="img/445.jpeg" alt="Children sitting on wooden stairs" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+
+        <!-- EDITABLE IMAGE — GALLERY 06 | File: img/kids-on-stairs-looking.jpg -->
+        <button type="button" class="gallery-item reveal" data-label="Community gathering">
+          <img src="img/200.jpeg" alt="Children sitting on wooden stairs looking away" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+
+        <!-- EDITABLE IMAGE — GALLERY 07 | File: img/group-with-shirts.jpg -->
+        <button type="button" class="gallery-item reveal" data-label="Community gathering">
+          <img src="img/554.jpeg" alt="Group photo holding black t-shirts" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+
+        <!-- EDITABLE IMAGE — GALLERY 08 | File: img/group-with-shirts-wide.jpg -->
+        <button type="button" class="gallery-item reveal" data-label="Community gathering">
+          <img src="img/guita.jpeg" alt="Wide group photo with black t-shirts" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+
+        <!-- EDITABLE IMAGE — GALLERY 09 | File: img/handing-out-shirts.jpg -->
+        <button type="button" class="gallery-item reveal" data-label="Community gathering">
+          <img src="img/gui2.jpeg" alt="Man handing out black t-shirts to children" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+
+        <!-- EDITABLE IMAGE — GALLERY 10 | File: img/dancing-by-mural.jpg -->
+        <button type="button" class="gallery-item reveal" data-label="Dance academy training">
+          <img src="img/concert.jpeg" alt="Children dancing in front of a large mural" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+
+        <!-- EDITABLE IMAGE — GALLERY 11 | File: img/stage-performance.jpg -->
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/787.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+          <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/564.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/pop.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/piing.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/paang.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/5.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/1.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/dance.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/2.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/3.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/pang.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/art5.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/art7.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/art3.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/art8.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/art13.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/art9.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/art10.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/art4.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+        <button type="button" class="gallery-item reveal" data-label="Festival performance">
+          <img src="img/food++.jpeg" alt="Dancers performing on stage in front of a crowd" loading="lazy">
+          <span class="gallery-hint">View</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section section--soft">
+    <div class="container">
+      <div class="cta-panel reveal">
+        <h2>Visit the centre</h2>
+        <p>See the work in person. Visitors, volunteers and partners are welcome any day between 10:00 am and 6:00 pm.</p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-light">Plan a visit</a>
+          <a href="involved.html" class="btn btn-ghost">Get involved</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GALLERY MODAL ================= -->
+  <div class="gallery-modal" id="galleryModal" role="dialog" aria-modal="true" aria-label="Gallery viewer">
+    <div class="gallery-dialog">
+      <div class="gallery-stage">
+        <img id="modalImage" src="" alt="">
+      </div>
+      <div class="gallery-bar">
+        <span class="gallery-index"></span>
+        <div class="gallery-controls">
+          <button type="button" class="gallery-prev">Previous</button>
+          <button type="button" class="gallery-next">Next</button>
+          <button type="button" class="gallery-close">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>AfroCure Arts and Talent Centre</h3>
+          <p>Kibera, Nairobi, Kenya.</p>
+          <p>Creativity. Community. Care.</p>
+          <p>Open daily, 10:00 am to 6:00 pm.</p>
+          <p>Founded by PINTO (Amos Odhiambo).</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="index.html">Home</a>
+          <a href="programs.html">Programs</a>
+          <a href="dance.html">Dance Academy</a>
+          <a href="about.html">About</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Programs</h4>
+          <a href="programs.html">Art and painting</a>
+          <a href="programs.html">Dance, music and drama</a>
+          <a href="programs.html">Daily meals</a>
+          <a href="programs.html">Mental health support</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Reach us</h4>
+          <a href="contact.html">Contact page</a>
+          <a href="mailto:afrocureartsandtalentcentre@gmail.com">Email us</a>
+          <a href="tel:+254715788117">+254 715 788 117</a>
+          <a href="donate.html">Donate</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 AfroCure Arts and Talent Centre. All rights reserved.</p>
+        <p>Founded by PINTO (Amos Odhiambo)</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
